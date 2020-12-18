@@ -9,6 +9,13 @@ const app = express();
 
 app.use('*', cors());
 
+const { userSchema } = require('./app/graphql/index');
+app.use('/graphql', cors(), graphqlHTTP({
+  schema: userSchema,
+  rootValue: global,
+  graphiql: true
+}))
+
 const PORT = process.env.PORT || 1337;
 app.listen(PORT, () => {
   console.log(`GraphQL running in ${process.env.NODE_ENV} mode on port ${PORT}`);

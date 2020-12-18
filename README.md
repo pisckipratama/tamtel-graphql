@@ -7,7 +7,7 @@ Heroku
 
 #### Todo
 - [ ] User admin login dan memasukkan data ruangan
-- [ ] User Guest register dengan data (email, password, photo profile)
+- [x] User Guest register dengan data (email, password, photo profile)
 - [ ] User Guest login
 - [ ] User Guest melihat ruangan yang tersedia
 - [ ] User Guest memboking di ruangan tersebut pada tanggal dan waktu yang telah dia tentukan.
@@ -17,3 +17,6 @@ Heroku
 - [ ] User Cek in ruangan
 - [ ] User mendapatkan email Cek In
 - [ ] Deployed
+
+#### Disclaimer
+Aplikasi Backend GraphQL ini masih belum beres, mohon dimaklumi karena belum pernah handle GraphQL sebelumnya.
